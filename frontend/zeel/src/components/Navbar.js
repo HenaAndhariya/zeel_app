@@ -6,7 +6,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-            <a className="navbar-brand d-flex justify-content-center" href="#"><img className="zeel_img" src={zeel_logo} alt="zeel logo" /></a>
+            <a className="navbar-brand d-flex justify-content-center" href="/"><img className="zeel_img" src={zeel_logo} alt="zeel logo" /></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -14,7 +14,7 @@ function Navbar() {
             <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                        <a className="nav-link text-white" href="#">Home</a>
+                        <a className="nav-link text-white" href="/">Home</a>
                     </li>
                     <li className="nav-item">
                     <Dropdown>
@@ -23,22 +23,22 @@ function Navbar() {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu className="dropdown_menu">
-                            <Dropdown.Item className="dropdown_item" href="#/action-1">Work</Dropdown.Item>
+                            <Dropdown.Item className="dropdown_item" href="//action-1">Work</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">Gallery</a>
+                        <a className="nav-link text-white" href="/">Gallery</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">About</a>
+                        <a className="nav-link text-white" href="/">About</a>
                     </li>
                     
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">Contact Us</a>
+                        <a className="nav-link text-white" href="/">Contact Us</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">Profile</a>
+                        <a className="nav-link text-white" href="/">Profile</a>
                     </li>
                 </ul>
                 {/* <form className="form-inline my-2 my-lg-0">
