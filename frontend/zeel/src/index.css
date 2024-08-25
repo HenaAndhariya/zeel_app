@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.zeel_img{
+  width: 20%;
+  filter: brightness(0) invert(1);
+}
+
+.btn-success{
+  background-color: transparent !important;
+}
+
+.dropdown_menu{
+  background-color: #18191B !important;
+}
+
+.dropdown_item{
+  color: #FFFFFF !important;
+  background-color: #2D2D2D !important;
+}
+
+.nav-link:hover, .dropdown_item:hover, .dropdown_bg:hover{
+  color: #FCD80D !important;
+}
+
+
