@@ -1,23 +1,23 @@
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/home/Home';
-import WeKnowthebest from './components/home/WeKnowthebest';
-import YourService from './components/home/YourServices';
-import Whychoouseus from './components/home/Chooseus';
+import About from './components/abotus/Abotus';
 // import { useState } from 'react';
 
 function App() {
 
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <WeKnowthebest />
-      <YourService />
-      <Whychoouseus />
+    <>
+    
+    <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/products" element={<Products />} /> */}
+        <Route path="/about" element={<About />} />  
+      </Routes>
       <Footer />
-    </div>
+  </>
   );
 }
 

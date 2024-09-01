@@ -23,7 +23,7 @@ function Navbar() {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu className="dropdown_menu">
-                            <Dropdown.Item className="dropdown_item" href="//action-1">Work</Dropdown.Item>
+                            <Dropdown.Item className="dropdown_item" href="/">Work</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                     </li>
@@ -31,7 +31,7 @@ function Navbar() {
                         <a className="nav-link text-white" href="/">Gallery</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="/">About</a>
+                        <a className="nav-link text-white" href="/about">About</a>
                     </li>
                     
                     <li className="nav-item">

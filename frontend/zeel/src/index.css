@@ -322,3 +322,35 @@ code {
   background-color: #222;
   padding: 10px 0;
 }
+
+/* About Us page */
+.about-section {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-section h1 {
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 100px; /* Adjust image size as needed */
+  height: auto;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.image-container img:hover {
+  transform: scale(1.2); /* Enlarge the image on hover */
+}
