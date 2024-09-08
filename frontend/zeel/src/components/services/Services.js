@@ -5,21 +5,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import successful_tailor from '../../img/successful-tailor-in-atelier.jpg';
 import tailor_working from '../../img/tailor-working-with-fabric.jpg';
 import measuring_tape from '../../img/tailor-with-measuring-tape.jpg';
-import WhatWeDo from './WhatWeDo';
-function Aboutus() {
+function Services() {
     return (
         <section>
-            <div class="about-section">
+            <div class="about-section service-section">
                 <div className="whychooseus">
                     <div className="container">
                         <div className="text animate__animated animate__fadeInLeft">
-                            <h1 className="text-white">About <span className="yellow_text">US</span></h1>
+                            <h1 className="text-white">Our <span className="yellow_text">Sevices</span></h1>
                             <div className="elementor-widget-container pb-3">
                                 <p className="text-white">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.
                                 </p>
                             </div>
-                             <div className="overlay-text">
+                            <div className="overlay-text">
                                 <div className="d-flex mt_5">
                                     <p className="borders"></p>
                                     <span className="animate__animated animate__fadeIn">Learn More</span>
@@ -34,9 +33,8 @@ function Aboutus() {
                     </div>
                 </div>
             </div>
-            <WhatWeDo/>
         </section>
 
     );
 };
-export default Aboutus;
+export default Services;

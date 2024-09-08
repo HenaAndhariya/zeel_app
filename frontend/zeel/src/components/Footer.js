@@ -15,8 +15,8 @@ function Footer() {
                     <nav className="footer-nav">
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/">Service</a></li>
+                        <li><a href="/About">About</a></li>
+                        <li><a href="/Services">Services</a></li>
                         <li><a href="/">Pages</a></li>
                         <li><a href="/">Contact</a></li>
                     </ul>

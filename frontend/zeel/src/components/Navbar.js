@@ -1,7 +1,7 @@
-import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import zeel_logo from '../img/zeel_logo.png';
-import Dropdown from 'react-bootstrap/Dropdown';
+// import Dropdown from 'react-bootstrap/Dropdown';
+// import React, { useState } from 'react';
 
 function Navbar() {
     return (
@@ -16,29 +16,25 @@ function Navbar() {
                     <li className="nav-item active">
                         <a className="nav-link text-white" href="/">Home</a>
                     </li>
-                    <li className="nav-item">
-                    <Dropdown>
-                        <Dropdown.Toggle variant="success" className="nav-link text-white dropdown_bg" id="dropdown-basic">
-                            Services
-                        </Dropdown.Toggle>
+                    {/* <li className="nav-item">
+                        <Dropdown onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}  show={isHovered}>
+                            <Dropdown.Toggle variant="success" className="nav-link text-white dropdown_bg" id="dropdown-basic" onClick={() => window.location.href = '/Services'}>
+                                Services
+                            </Dropdown.Toggle>
 
-                        <Dropdown.Menu className="dropdown_menu">
-                            <Dropdown.Item className="dropdown_item" href="/">Work</Dropdown.Item>
-                        </Dropdown.Menu>
-                    </Dropdown>
+                            <Dropdown.Menu className="dropdown_menu">
+                                <Dropdown.Item className="dropdown_item" href="/Work">Work</Dropdown.Item>
+                            </Dropdown.Menu>
+                        </Dropdown>
+                    </li> */}
+                    <li className="nav-item">
+                        <a className="nav-link text-white" href="/Services"> Services</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="/">Gallery</a>
+                        <a className="nav-link text-white" href="/Work">Work</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="/about">About</a>
-                    </li>
-                    
-                    <li className="nav-item">
-                        <a className="nav-link text-white" href="/">Contact Us</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link text-white" href="/">Profile</a>
+                        <a className="nav-link text-white" href="/About">About</a>
                     </li>
                 </ul>
                 {/* <form className="form-inline my-2 my-lg-0">

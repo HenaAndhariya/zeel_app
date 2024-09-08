@@ -345,7 +345,7 @@ code {
 }
 
 .image-container img {
-  width: 100px; /* Adjust image size as needed */
+  width: 210px; /* Adjust image size as needed */
   height: auto;
   margin: 10px;
   transition: transform 0.3s;
@@ -353,4 +353,173 @@ code {
 
 .image-container img:hover {
   transform: scale(1.2); /* Enlarge the image on hover */
+}
+
+.about-section .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FCD80D;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 45%;
+}
+
+.about-section .mt_5 {
+  margin-top: 8rem !important;
+}
+
+/* What we Do css */
+.image-slider {
+  width: 40%; /* Reduced width of the slider */
+  margin: auto;
+  text-align: center;
+}
+
+/* Adjust the size of the slider images */
+.image-slider img {
+  width: 100%; /* Keep the image responsive */
+  height: auto; /* Ensure the aspect ratio is maintained */
+  max-height: 500px; /* Set a maximum height for the images */
+  margin: auto;
+}
+
+/* Position the slider dots below the images */
+.image-slider .slick-dots {
+  bottom: -30px;
+}
+
+.whatwedo .text {
+  margin-left: 8rem;
+}
+
+
+/* Our work css */
+.work-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.work-header {
+  margin-bottom: 30px;
+}
+
+.work-header h1 {
+  font-size: 28px;
+}
+
+.yellow-text {
+  color: #f39c12;
+}
+
+.work-header p {
+  font-size: 16px;
+  color: #777;
+}
+
+.learn-more {
+  background-color: #f39c12;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Work.css */
+.image-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 50%;
+}
+
+.image-large {
+  /* flex: 2; */
+  margin-right: 20px;
+  width: 133%;
+}
+
+.image-large img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.image-small-container {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-small {
+  margin-bottom: 20px;
+  width: 170%;
+}
+
+.image-small img {
+  width: 50%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.image-small:last-child {
+  margin-bottom: 0;
+}
+
+.work .text {
+  margin-left: 20px;
+  margin-top: 5rem;
+}
+
+.work span{
+  margin-left:10px;
+}
+.work span p{
+  margin-right: 5px;
+}
+
+.work-section {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.work-section h1 {
+  margin-bottom: 10px;
+}
+
+.work-section p {
+  margin-bottom: 20px;
+}
+
+.work-section .overlay-text {
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FCD80D;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 50%;
+}
+
+
+/* Services css */
+
+.service-section .image-container img:hover {
+  transform: inherit;
+}
+
+.service-section .image-container img {
+  width: 250px;
 }
