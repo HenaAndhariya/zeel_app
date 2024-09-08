@@ -15,8 +15,9 @@ function Footer() {
                     <nav className="footer-nav">
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/About">About</a></li>
                         <li><a href="/Services">Services</a></li>
+                        <li><a href="/Work">Work</a></li>
+                        <li><a href="/About">About</a></li>
                     </ul>
                 </nav>
                     <p>&copy; {new Date().getFullYear()} Zeel Menswear. All rights reserved.</p>
