@@ -1,7 +1,7 @@
 import React from 'react';
 import 'animate.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import zeel_logo from '../img/zeel_logo.png';
+import zeel_logo from '../img/zeel_logo_2.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faPinterestP, faTwitter, faTelegram, faYoutube } from '@fortawesome/free-brands-svg-icons';

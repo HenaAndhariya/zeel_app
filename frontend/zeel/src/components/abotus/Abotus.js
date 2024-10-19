@@ -9,7 +9,7 @@ import WhatWeDo from './WhatWeDo';
 function Aboutus() {
     return (
         <section>
-            <div class="about-section">
+            <div class="about-section about_section">
                 <div className="whychooseus">
                     <div className="container">
                         <div className="text animate__animated animate__fadeInLeft">

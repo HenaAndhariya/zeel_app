@@ -12,9 +12,14 @@ code {
     monospace;
 }
 
+.bg_dark {
+  --bs-bg-opacity: 1;
+  background-color: #182c4c !important;
+}
+
 .zeel_img{
   width: 20%;
-  filter: brightness(0) invert(1);
+  /* filter: brightness(0) invert(1); */
 }
 
 .btn-success{
@@ -22,21 +27,21 @@ code {
 }
 
 .dropdown_menu{
-  background-color: #18191B !important;
+  background-color: #0e1c36 !important;
 }
 
 .dropdown_item{
   color: #FFFFFF !important;
-  background-color: #2D2D2D !important;
+  background-color: #182c4c !important;
 }
 
 .nav-link:hover, .dropdown_item:hover, .dropdown_bg:hover{
-  color: #FCD80D !important;
+  color: #d0bb91 !important;
 }
 
 
 .best_style{
-  background-color: #18191B;
+  background-color: #0e1c36;
 }
 
 .split-screen {
@@ -64,14 +69,14 @@ code {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #FCD80D;
+  color: #d0bb91;
   font-size: 24px;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .overlay-text .borders {
-  border-block-start: 1px solid #FCD80D !important;
+  border-block-start: 1px solid #ffe2a8 !important;
   margin-top: 12px;
   width: 70% !important;
 }
@@ -98,7 +103,7 @@ code {
   align-items: center;
   justify-content: space-between;
   /* padding: 20px; */
-  background-color: #2D2D2D;
+  background-color: #182c4c;
 }
 
 .image {
@@ -114,7 +119,7 @@ code {
 
 .text {
   flex: 1;
-  color: #FCD80D;
+  color: #d0bb91;
   padding: 20px;
   text-align: left;
   margin-left: -12rem;
@@ -133,18 +138,18 @@ code {
 .button {
   color: #fff;
   padding: 10px 20px;
-  border: 1px solid #FCD80D;
+  border: 1px solid #d0bb91;
   /* border-radius: 5px; */
   cursor: pointer;
   text-decoration: none;
 }
 .button:hover{
-  background-color: #FCD80D;
+  background-color: #d0bb91;
   color: #000;
 }
 
 .yellow_text{
-  color: #FCD80D;
+  color: #d0bb91;
 }
 
 .elementor-widget-container {
@@ -160,8 +165,8 @@ code {
 
 .yourservice .section_2 , .yourservice .section {
   text-align: center;
-  border: 1px solid #FCD80D;
-  color: #FCD80D;
+  border: 1px solid #d0bb91;
+  color: #d0bb91;
   display: block;
   padding: 20px;
   text-decoration: none;
@@ -169,23 +174,23 @@ code {
 }
 
 .yourservice .section_2:hover{
-  background-color: #FCD80D;
+  background-color: #d0bb91;
   color: #000;
 }
 .yourservice .section:nth-child(1):hover {
   background-color: transparent !important;
-  color: #FCD80D;
+  color: #d0bb91;
 }
 
 .yourservice .section:nth-child(1) {
-  background-color: #FCD80D;
+  background-color: #d0bb91;
   color: #000;
 }
 
 
 .yourservice .section i {
   font-size: 24px;
-  color: #FCD80D;
+  color: #d0bb91;
   margin-bottom: 10px;
 }
 
@@ -226,7 +231,7 @@ code {
 }
 
 .footer {
-  background-color: #18191B;
+  background-color: #0e1c36;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -267,7 +272,7 @@ code {
 }
 
 .footer-nav ul li a:hover {
-  color: #FCD80D;
+  color: #d0bb91;
 }
 
 .footer-contact {
@@ -280,10 +285,10 @@ code {
   margin: 0 10px;
 }
 .contact-item svg{
-  color: #FCD80D;
+  color: #d0bb91;
 }
 .footer h4{
-  color: #FCD80D;
+  color: #d0bb91;
 }
 .contact-item p {
   margin: 0 0 0 10px;
@@ -309,7 +314,7 @@ code {
 }
 
 .social-icons a {
-  color: #FCD80D;
+  color: #d0bb91;
   font-size: 20px;
   text-decoration: none;
 }
@@ -325,10 +330,14 @@ code {
 
 /* About Us page */
 .about-section {
-  background-color: #000;
+  background-color: #1e2940;
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+
+.about_section {
+  background-color: #0e1c36 !important;
 }
 
 .about-section h1 {
@@ -361,7 +370,7 @@ code {
   left: 27%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #FCD80D;
+  color: #d0bb91;
   font-size: 24px;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -486,7 +495,7 @@ code {
 }
 
 .work-section {
-  background-color: #000;
+  background-color: #1e2940;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -506,7 +515,7 @@ code {
   left: 30%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #FCD80D;
+  color: #d0bb91;
   font-size: 24px;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
