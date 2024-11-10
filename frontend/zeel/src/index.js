@@ -4,7 +4,7 @@ import { HashRouter } from 'react-router-dom';
 import './index.css';
 import './responsive.css';
 import App from './App.js';
-// import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
