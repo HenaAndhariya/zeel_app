@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/zeel_app/static/css/main.9e56463f.css",
+    "main.js": "/zeel_app/static/js/main.0008f28d.js",
+    "static/media/successful-tailor-in-atelier.jpg": "/zeel_app/static/media/successful-tailor-in-atelier.8a5503d1d33530d491ab.jpg",
+    "static/media/creating-bespoke-suit-1.jpg": "/zeel_app/static/media/creating-bespoke-suit-1.4f32b07704ba2193749d.jpg",
+    "static/media/wedding-dress-marry-clothes-outfit.png": "/zeel_app/static/media/wedding-dress-marry-clothes-outfit.18bc4c9cffb5c4f9ab0b.png",
+    "static/media/tailor-with-measuring-tape.jpg": "/zeel_app/static/media/tailor-with-measuring-tape.7c4a64e08b896f072c76.jpg",
+    "static/media/tailor-working-with-fabric.jpg": "/zeel_app/static/media/tailor-working-with-fabric.8fa3e172ccaa52a49e11.jpg",
+    "static/media/strapless-tanktop-clothes-outfit-party-skirt.png": "/zeel_app/static/media/strapless-tanktop-clothes-outfit-party-skirt.ff40080c076a373eefa5.png",
+    "static/media/man-in-suit-1.jpg": "/zeel_app/static/media/man-in-suit-1.c7f1c9811b667e02d8b7.jpg",
+    "static/media/dress-shopping-fashion-outfit-clothes.png": "/zeel_app/static/media/dress-shopping-fashion-outfit-clothes.a8618cfd1e779e30c3c0.png",
+    "static/media/crop1-1.jpg": "/zeel_app/static/media/crop1-1.3189ac1bfed4d44c906f.jpg",
+    "static/media/tailor-in-atelier.jpg": "/zeel_app/static/media/tailor-in-atelier.ece9bf54b2bb61712afd.jpg",
+    "static/media/a-tuxedo-displayed-in-a-retail-store.jpg": "/zeel_app/static/media/a-tuxedo-displayed-in-a-retail-store.cd83e67ae64eec69fe31.jpg",
+    "static/media/expensive-suits-shopping-PGUADCA.jpg": "/zeel_app/static/media/expensive-suits-shopping-PGUADCA.127c64e4601f21d655a4.jpg",
+    "static/media/tailor-working-with-patterns.jpg": "/zeel_app/static/media/tailor-working-with-patterns.68e8a8289a544b603473.jpg",
+    "static/media/tailoring-studio.jpg": "/zeel_app/static/media/tailoring-studio.f947f69f32f0791d287c.jpg",
+    "static/media/tailor-and-customer.jpg": "/zeel_app/static/media/tailor-and-customer.34a7abb284b718c61676.jpg",
+    "static/media/blazer-suit-formal.png": "/zeel_app/static/media/blazer-suit-formal.4d8c9b9e2b2754d6db55.png",
+    "static/media/wedding-suit-clothes.png": "/zeel_app/static/media/wedding-suit-clothes.193fbe08694dc295e815.png",
+    "static/media/waistcoat-suit-formal-clothes-outfit.png": "/zeel_app/static/media/waistcoat-suit-formal-clothes-outfit.234c125d892b5c31fc65.png",
+    "static/media/elegant-men-suit-on-mannequin-shopwindow.jpg": "/zeel_app/static/media/elegant-men-suit-on-mannequin-shopwindow.cf58b55e9511d3c626d4.jpg",
+    "static/media/zeel_logo_2.png": "/zeel_app/static/media/zeel_logo_2.7c6d33be8d8d4ef64ca9.png",
+    "static/media/slick.svg": "/zeel_app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/zeel_app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/zeel_app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/zeel_app/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/zeel_app/index.html",
+    "main.9e56463f.css.map": "/zeel_app/static/css/main.9e56463f.css.map",
+    "main.0008f28d.js.map": "/zeel_app/static/js/main.0008f28d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e56463f.css",
+    "static/js/main.0008f28d.js"
+  ]
+}
