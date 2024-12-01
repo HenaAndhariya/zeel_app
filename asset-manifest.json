@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zeel_app/static/css/main.9e56463f.css",
-    "main.js": "/zeel_app/static/js/main.422458f0.js",
+    "main.js": "/zeel_app/static/js/main.fa11d0b8.js",
     "static/media/successful-tailor-in-atelier.jpg": "/zeel_app/static/media/successful-tailor-in-atelier.8a5503d1d33530d491ab.jpg",
     "static/media/creating-bespoke-suit-1.jpg": "/zeel_app/static/media/creating-bespoke-suit-1.4f32b07704ba2193749d.jpg",
     "static/media/wedding-dress-marry-clothes-outfit.png": "/zeel_app/static/media/wedding-dress-marry-clothes-outfit.18bc4c9cffb5c4f9ab0b.png",
@@ -28,10 +28,10 @@
     "static/media/slick.woff": "/zeel_app/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zeel_app/index.html",
     "main.9e56463f.css.map": "/zeel_app/static/css/main.9e56463f.css.map",
-    "main.422458f0.js.map": "/zeel_app/static/js/main.422458f0.js.map"
+    "main.fa11d0b8.js.map": "/zeel_app/static/js/main.fa11d0b8.js.map"
   },
   "entrypoints": [
     "static/css/main.9e56463f.css",
-    "static/js/main.422458f0.js"
+    "static/js/main.fa11d0b8.js"
   ]
 }
