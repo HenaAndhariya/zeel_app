@@ -10,6 +10,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 function WhatWeDo() {
     const images = [atelier, customer, patterns, studio];
@@ -37,9 +38,9 @@ function WhatWeDo() {
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                                 </p>
                             </div>
-                            <a href="/" className="button">
+                            <Link to="/" className="button">
                                 <FontAwesomeIcon icon={faAngleRight} className="font_icon" /> More Info
-                            </a>
+                            </Link>
                         </div>
                         <div className="image-slider">
                             <Slider {...settings}>

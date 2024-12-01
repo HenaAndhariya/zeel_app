@@ -10,6 +10,7 @@ import weddingdress from '../../img/wedding-dress-marry-clothes-outfit.png';
 import strapless from '../../img/strapless-tanktop-clothes-outfit-party-skirt.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 function Whychoouseus() {
     return (
@@ -22,9 +23,9 @@ function Whychoouseus() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis pulvinar dapibus .
                         </p>
                     </div>
-                    <a href="/" className="button">
+                    <Link to="/" className="button">
                         <FontAwesomeIcon icon={faAngleRight} className="font_icon" /> More Info
-                    </a>
+                    </Link>
                 </div>
                 <div className="image animate__animated animate__fadeInRight">
                     <div className="d-flex align-item-center p-5">

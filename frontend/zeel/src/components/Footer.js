@@ -2,6 +2,7 @@ import React from 'react';
 import 'animate.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import zeel_logo from '../img/zeel_logo_2.png';
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faPinterestP, faTwitter, faTelegram, faYoutube } from '@fortawesome/free-brands-svg-icons';
@@ -14,10 +15,10 @@ function Footer() {
                     <img className="zeel_img" src={zeel_logo} alt="zeel logo" />
                     <nav className="footer-nav">
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/Services">Services</a></li>
-                        <li><a href="/Work">Work</a></li>
-                        <li><a href="/About">About</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/Services">Services</Link></li>
+                        <li><Link to="/Work">Work</Link></li>
+                        <li><Link to="/About">About</Link></li>
                     </ul>
                 </nav>
                     <p>&copy; {new Date().getFullYear()} Zeel Menswear. All rights reserved.</p>
@@ -41,21 +42,21 @@ function Footer() {
                     <h4>About Us</h4>
                     <p>Lorem ipsum dolor sit amet, adipiscing elit.</p>
                     <div className="social-icons">
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                        <Link to="https://facebook.com" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faFacebookF} />
-                        </a>
-                        <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
+                        </Link>
+                        <Link to="https://pinterest.com" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faPinterestP} />
-                        </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                        </Link>
+                        <Link to="https://twitter.com" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faTwitter} />
-                        </a>
-                        <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
+                        </Link>
+                        <Link to="https://telegram.org" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faTelegram} />
-                        </a>
-                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                        </Link>
+                        <Link to="https://youtube.com" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faYoutube} />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

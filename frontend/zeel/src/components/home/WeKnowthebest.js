@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import crop from '../../img/crop1-1.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 function WeKnowthebest() {
     return (
@@ -19,9 +20,9 @@ function WeKnowthebest() {
                         Cras a ante id lectus molestie scelerisque in ac tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam at tellus id lorem finibus lobortis. Praesent mollis tortor in purus semper, vel condimentum purus fringilla. Morbi sollicitudin lorem eros, sit amet fringilla dolor commodo.
                     </p>
                 </div>
-                <a href="/" className="button">
+                <Link to="/" className="button">
                     <FontAwesomeIcon icon={faAngleRight} className="font_icon" /> More Info
-                </a>
+                </Link>
             </div>
         </div>
     );
