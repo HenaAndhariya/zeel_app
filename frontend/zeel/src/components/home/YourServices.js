@@ -26,7 +26,7 @@ function YourService() {
                     </div>
                 </div>
                 <div className="left-section">
-                    <div className="split-screen">
+                    <div className="split-screen"> 
                         {/* Section 1 (Top to Bottom) */}
                         <Link to="/" className="section animate__animated animate__fadeIn">
                             <FontAwesomeIcon icon={faHeadset} className="font_icon" />
